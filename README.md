@@ -16,24 +16,7 @@ I am currently embarking on my journey into the captivating field of computer sc
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Deivii787-800&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ### :zap: Actividad reciente
-name: Update README
 
-on:
-  schedule:
-    - cron: "* */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Update Profile README
-
-    steps:
-      - uses: actions/checkout@v4.2.2
-      
-      - uses: Readme-Workflows/recent-activity@v2.4.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 ## 🏆 GitHub Trophies
